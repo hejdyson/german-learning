@@ -1,0 +1,53 @@
+/* GENERAL STYLES FOR BODY AND SECTIONS*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Monserrat, Arial;
+  margin: 0;
+  color: rgb(17, 17, 17);
+} 
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.container {
+  max-width: 1300px;
+  background-color: aquamarine;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 70px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.section {
+  width: 100%;     /* Full width of the container */
+  height: 70vh;   /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-inner {
+  width: 100%;
+  padding: 0px 0px;
+  background-color: aqua;
+}
+
+
+

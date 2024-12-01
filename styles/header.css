@@ -1,0 +1,41 @@
+/* HEADER START */
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.nav {
+  background-color: beige;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure nav spans the width of the header */
+  height: 100%;
+  align-items: center; /* Vertically align items in the middle */
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  vertical-align: middle;
+  padding: 20px 10px;
+  height: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: rgb(57, 57, 57);
+}
+
+/* HEADER END */
